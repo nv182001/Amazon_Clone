@@ -1,0 +1,61 @@
+/* css for header */
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  color: white;
+}
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+.header_search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+.header_searchInput {
+  height: 12px;
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+.header_searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+  color: black;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin: auto 10px;
+  color: white;
+}
+.header_optionLine1 {
+  font-size: 11px;
+}
+.header_optionLine2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header_optionBasket {
+  display: flex;
+  color: white;
+}
+.header_basketCount {
+  margin: auto 10px;
+}
